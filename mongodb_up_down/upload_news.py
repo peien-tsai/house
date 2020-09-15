@@ -11,7 +11,7 @@ def input_raw_data(txtpath):
     return eval(content)  # type為list/dict
 
 '''建立連線'''
-client = MongoClient("mongodb://root:000000@13.231.5.142")
+#client = MongoClient("mongodb://user:userpassword@ip")
 
 # '''mobile01'''
 # db = client.raw_forum  # 切換database
